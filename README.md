@@ -13,6 +13,7 @@ Providing a simple C++ API to visualize datas.
 
 ![ex1](examples/ex1.png "Print a vector")
 
+![movie](exmaple/movies.gif "Insertation sort")
 
 ## Dependencies
 
