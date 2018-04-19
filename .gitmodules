@@ -1,0 +1,3 @@
+[submodule "extlib/libSDL2pp"]
+	path = extlib/libSDL2pp
+	url = https://github.com/libSDL2pp/libSDL2pp.git
