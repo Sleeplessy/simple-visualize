@@ -32,7 +32,7 @@ int main(int, char *[]) try {
     Renderer render(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_TARGETTEXTURE);
 
     render.SetDrawBlendMode(SDL_BLENDMODE_BLEND);
-    std::vector<int> v{1, 3, 3, 4, 5, 11, 7, 8, 17};
+    std::vector<int> v{1, 3, 3, 4, 5, 11, 7, 8, 17}; // init a data array
     while (1) {
         // Process input
         SDL_Event event;
@@ -44,7 +44,7 @@ int main(int, char *[]) try {
         // Clear screen
         render.SetDrawColor(0, 32, 32);
         render.Clear();
-        visualize::drawList(v,render);
+        visualize::drawList(v,render); // draw it!
         render.Present();
         // Frame limiter
         SDL_Delay(1);
