@@ -2,6 +2,10 @@
 
 Providing a simple C++ API to visualize datas.
 
+## Example Preview
+
+![ex1](examples/ex1.png "Print a vector")
+
 
 ## Dependencies
 
