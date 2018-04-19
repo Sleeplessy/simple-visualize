@@ -2,6 +2,13 @@
 
 Providing a simple C++ API to visualize datas.
 
+## Pros
+
+- Single header
+- Easy to use
+- fit with all STL containers(custom containers need to have ForwardIterator)
+
+
 ## Example Preview
 
 ![ex1](examples/ex1.png "Print a vector")
